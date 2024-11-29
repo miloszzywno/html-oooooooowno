@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(108, 17, 17);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Dodanie tej właściwości, aby datę ustawić w prawym górnym rogu */
+}
+
+header h1 {
+    color: red;
+    font-family: fantasy;
+    margin: 0; /* Usunięcie marginesu dla nagłówka */
+}
+
+.date-container {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    position: absolute; /* Ustawienie daty w prawym górnym rogu */
+    top: 20px; /* Odstęp od góry */
+    right: 20px; /* Odstęp od prawej */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.table-section {
+    flex: 1;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: red;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-section img {
+    width: 150px;
+    height: auto;
+    border: 2px solid white;
+}

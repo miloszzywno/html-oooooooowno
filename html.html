@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Matma moja ukochana</title>
+</head>
+<body>
+    <header>
+        <h1>Witaj Miłosz Żywno</h1>
+        <span id="current-date" class="date-container"></span>
+        <script>
+            const today = new Date();
+            const formattedDate = today.toLocaleDateString('pl-PL', {
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric'
+            });
+            document.getElementById('current-date').textContent = formattedDate;
+        </script>
+    </header>
+
+    <main class="container">
+
+        <section class="text-section">
+            <h2>Opis</h2>
+            <p>Jezu ta matma dlaczego akurat matma,<br>dlaczego wybrała matme.</p>
+            <p>Czemu los się nade mną znęca? Dlaczego proszę pani, dlaczego?<br>Za jakie grzechy pani dała nam temat do pracy: matematyka.</p>
+        </section>
+
+
+        <section class="table-section">
+            <h2>Matematyka</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                      
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  
+                    <tr>
+                        <th>1</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                  
+                    <tr>
+                        <th>2</th>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>6</td>
+                        <td>8</td>
+                        <td>10</td>
+                        <td>12</td>
+                        <td>14</td>
+                        <td>16</td>
+                        <td>18</td>
+                        <td>20</td>
+                    </tr>
+                  
+                    <tr>
+                        <th>3</th>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>9</td>
+                        <td>12</td>
+                        <td>15</td>
+                        <td>18</td>
+                        <td>21</td>
+                        <td>24</td>
+                        <td>27</td>
+                        <td>30</td>
+                    </tr>
+                   
+                    <tr>
+                        <th>4</th>
+                        <td>4</td>
+                        <td>8</td>
+                        <td>12</td>
+                        <td>16</td>
+                        <td>20</td>
+                        <td>24</td>
+                        <td>28</td>
+                        <td>32</td>
+                        <td>36</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                        <td>20</td>
+                        <td>25</td>
+                        <td>30</td>
+                        <td>35</td>
+                        <td>40</td>
+                        <td>45</td>
+                        <td>50</td>
+                    </tr>
+                   
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <section class="image-section">
+        <a href="https://www.youtube.com/watch?v=im_HtlDkG30">
+            <img src="zdjecie1.png" alt="Matematyka wizualizacja">
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=_bsHgOjXZTU">
+            <img src="zdjecie2.png" alt="Matematyka wizualizacja2">
+            </a>
+        <a href="https://www.reddit.com/r/CombatFootage/comments/1h1xtu5/syrian_opposition_fighters_busting_through_a_wall/"><img src="zdjecie3.png" alt="Matematyka wizualizacja3">
+            </a>
+    </section>
+</body>
+</html>
